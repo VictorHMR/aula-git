@@ -1,0 +1,28 @@
+1. Por que o Git é considerado um sistema de controle de versão distribuído?
+R) Porque cada desenvolvedor tem uma cópia completa do repositório e do seu histórico, podendo trabalhar com a própria instância.
+
+2. Diferença entre Working Directory, Staging Area e Repository
+R) Working Directory: seu projeto no PC.
+Staging Area: Espaço temporário onde você prepara o que será commitado.
+Repository: Onde os commits ficam armazenados.
+
+3. Para que serve o comando git clone ?
+R) Copiar um repositório remoto para a sua máquina.
+
+4. Onde estão implementados fisicamente Working Directory, Staging Area e Repository ?
+R) Working Directory: Pastas e arquivos do projeto.
+Staging Area: Arquivo interno dentro do Git (no .git/index).
+Repository: Diretório oculto .git dentro do projeto.
+
+5. Quais os estados de um arquivo no repositório do git ?
+R) Untracked e Tracked que possui estados de Unmodified, Modified e Staged.
+
+6. Possíveis transições de estado de um arquivo no Git
+R) 
+Untracked -> Staged
+Staged -> Unmodified
+Unmodified -> Modified
+Modified -> Staged
+Staged -> Modified
+Modified -> Unmodified
+

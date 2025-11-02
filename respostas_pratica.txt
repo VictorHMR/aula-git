@@ -1,0 +1,50 @@
+Pergunta: Qual foi a mensagem exibida após o comando git init e o que
+ela significa na prática?
+
+R) Initialized empty Git repository in D:/Projetos/Pratica Git e Github/aula-git/.git/
+Significa que o repositório local foi inicializado
+
+
+
+1. Qual o estado do arquivo antes e depois do git add ? 
+R) Untracked
+
+2. O que significa o estado untracked e tracked ? 
+R) untracked significa que o git não está monitorando, tracked significa que o arquivo já está adicionado ao repositório.
+
+3. Qual o objetivo do git commit ? 
+R) Criar uma nova versão para o repositório.
+
+4. Qual o estado do arquivo após o git commit ? 
+R) Tracked
+
+
+1. O que o comando git diff mostra? 
+R) A diferença entre o arquivo local e a ultima versão monitorada
+
+2. Qual commit está atualmente apontado por HEAD?
+R) 490ca88
+
+1. Como verificar em qual branch você está?
+R) git branch
+
+2. O que acontece se você rodar git merge nova-feature estando na
+branch principal?
+R) As alterações feitas na branch serão repassadas para a branch principal onde você está.
+
+
+1. O que significa o -u no comando git push -u origin main ?
+R) define a branch main como upstream, a definindo com o repositório remoto origin, para que futuros push e pull possam ser efetuados sem especificar a branch
+
+2. Como verificar os remotes configurados no repositório?
+R) git remote -v
+
+
+Qual etapa foi mais difícil? 
+R) Apenas a formulação das respostas
+
+Como o Git ajuda na colaboração ?
+R) ele possibilita o controle do código fonte, assim permitindo que vários desenvolvedores atuem ativamente no mesmo.
+
+Que diferença faz ter um repositório remoto?
+R) A colaboração entre diversos desenvolvedores.
